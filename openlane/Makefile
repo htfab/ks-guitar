@@ -1,1 +1,1 @@
-../caravel/openlane/Makefile
+../../../test/caravel-lite/openlane/Makefile
