@@ -54,6 +54,19 @@ set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
+	$script_dir/../../verilog/rtl/defines.v \
+	$script_dir/../../verilog/rtl/ks_noise.v \
+	$script_dir/../../verilog/rtl/ks_burst.v \
+	$script_dir/../../verilog/rtl/ks_fader.v \
+	$script_dir/../../verilog/rtl/ks_delay_dff.v \
+	$script_dir/../../verilog/rtl/ks_feedback.v \
+	$script_dir/../../verilog/rtl/ks_tuning.v \
+	$script_dir/../../verilog/rtl/ks_dynamics.v \
+	$script_dir/../../verilog/rtl/ks_string.v \
+	$script_dir/../../verilog/rtl/ks_wrap.v \
+	$script_dir/../../verilog/rtl/ks_guitar.v \
+	$script_dir/../../verilog/rtl/dac.v \
+	$script_dir/../../verilog/rtl/core.v \
 	$script_dir/../../verilog/rtl/user_project.v"
 
 set ::env(EXTRA_LEFS) "\
